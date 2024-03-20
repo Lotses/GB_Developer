@@ -19,6 +19,10 @@ class Program
 
         Array.Resize(ref newArray, newIndex);
 
-        
+        Console.WriteLine("New array with strings of length <= 3:");
+        foreach (string str in newArray)
+        {
+            Console.WriteLine(str);
+        }
     }
 }
